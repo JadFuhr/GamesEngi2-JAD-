@@ -43,7 +43,7 @@ public:
 
     // Subtraction
     int subtract(int a, int b) {
-        return a + b; // <BUG_2:>
+        return a - b; // <BUG_2: Fixed issu by changing + to ->
     }
 };
 class Arithmetic2 {
