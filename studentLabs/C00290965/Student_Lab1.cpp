@@ -43,14 +43,14 @@ public:
 
     // Subtraction
     int subtract(int a, int b) {
-        return a - b; // <BUG_2: Fixed issu by changing + to ->
+        return a - b; // <BUG_2: Fixed issue by changing + to ->
     }
 };
 class Arithmetic2 {
 public:
     // Multiplication
     int multiply(int a, int b) {
-        return a / b; // <BUG_3:>
+        return a * b; // <BUG_3: Fixed issue by changing / to *>
     }
 
     // Division
